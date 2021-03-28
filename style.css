@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,600;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: rgb(206, 206, 206);
+  color: #333;
+}
+
+nav {
+  background-color: rgb(41, 41, 41);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style-type: none;
+  /* padding: 10px 20px; */
+  padding: 1em 2em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+#main {
+  width: 90%;
+  margin: auto;
+}
+
+#main h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 20px 0;
+}
+
+#main #home p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+#img-div {
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#img-div img {
+  text-align: center;
+  padding: 1em 2em 0.5em 2em;
+  max-width: 90%;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+}
+
+#img-div #img-caption {
+  padding-bottom: 2em;
+}
+
+#tribute-info h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#tribute-info ul li {
+  margin-left: 4em;
+  margin-top: 1em;
+}
+
+#tribute-info p {
+  font-size: 1rem;
+}
+
+#follow {
+  background-color: rgb(41, 41, 41);
+  color: white;
+  position: absolute;
+  right: 0;
+  left: 0;
+  padding: 2em;
+  margin-top: 3em;
+}
+
+#follow ul {
+  display: flex;
+  justify-content: center;
+}
+
+#follow ul li {
+  list-style-type: none;
+}
+
+#follow ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 2.5rem;
+  padding: 0.3em;
+}
+
+#follow h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
